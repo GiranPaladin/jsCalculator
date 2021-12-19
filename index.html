@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Calculator</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+ <div class="title flex justify-center">
+   <h1 class="bg-yellow-300 p-4 mt-10 text-2xl">Javascript Calculator</h1>
+ </div>
+
+
+<div class="h-screen flex justify-center items-center">
+    <div id="calc_container"
+    class="h-96 w-96 px-4 py-4 bg-yellow-300 text-white text-center">
+    
+    <button class="clear bg-black p-3">
+     Clear
+
+    </button>
+    
+    
+    <div>
+      <textarea id="result" class="w-full h-8 text-2xl text-right text-black resize-none shadow-lg mt-3">
+      </textarea>
+    </div>
+    <main class="mt-4">
+      <div class="grid grid-cols-4 gap-1 pb-1">
+        <button class="check flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer one">
+          1
+        </button>
+        <button class="flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer two">
+          2
+        </button>
+        <button class="flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer three">3</button>
+        <button class="four flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">4</button>
+      </div>
+      <div class="grid grid-cols-4 gap-1 pb-1">
+        <button class="five flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">5</button>
+        <button class="six flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">6</button>
+        <button class="seven flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">7</button>
+        <button class="eight flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">8</button>
+      </div>
+      <div class="grid grid-cols-4 gap-1 pb-1">
+        <button class="nine flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">9</button>
+        <button class="zero flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">0</button>
+        <button class="plus flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">+</button>
+        <button class="minus flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">-</button>
+      </div>
+      
+      <div class="grid grid-cols-4 grid-flow-col gap-1 pb-1">
+        <button class="times flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer ">*</button>
+        <button class="divide flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer">/</button>
+        <button class="equals flex justify-center items-center text-white text-center p-4 bg-black cursor-pointer col-span-2">=</button>
+      </div>
+    </main>
+
+    </div>
+  </div>
+
+
+  <div class="title flex justify-center rounded-full">
+   
+<a href="https://github.com/GiranPaladin" target="_blank">
+
+  <h1 class="bg-yellow-300 p-3 mb-10 text-sm">Made by Ithiel</h1>
+ </a>
+
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
